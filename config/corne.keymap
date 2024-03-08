@@ -44,10 +44,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB    &kp Q  &kp W         &kp F            &kp P        &kp B            &kp J      &kp L             &kp U             &kp Y         &kp SINGLE_QUOTE  &kp BSPC
-&kp LCTRL  &kp A  &hml LCTRL R  &hml LEFT_ALT S  &hml LGUI T  &kp G            &kp M      &hmr RIGHT_GUI N  &hmr RIGHT_ALT E  &hmr RCTRL I  &kp O             &kp SQT
-&kp LSHFT  &kp Z  &kp X         &kp C            &kp D        &kp V            &kp K      &kp H             &kp COMMA         &kp DOT       &kp FSLH          &kp ESC
-                                &kp TAB          &kp LSHFT    &kp BACKSPACE    &kp SPACE  &to 1             &kp RET
+&kp TAB    &kp Q               &kp W         &kp F            &kp P        &kp B            &kp J      &kp L             &kp U             &kp Y         &kp SINGLE_QUOTE  &kp BSPC
+&kp LCTRL  &hml RIGHT_SHIFT A  &hml LCTRL R  &hml LEFT_ALT S  &hml LGUI T  &kp G            &kp M      &hmr RIGHT_GUI N  &hmr RIGHT_ALT E  &hmr RCTRL I  &hmr RSHFT O      &kp SQT
+&kp LSHFT  &kp Z               &kp X         &kp C            &kp D        &kp V            &kp K      &kp H             &kp COMMA         &kp DOT       &kp FSLH          &kp ESC
+                                             &kp TAB          &kp LSHFT    &kp BACKSPACE    &kp SPACE  &to 1             &kp RET
             >;
         };
 
